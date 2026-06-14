@@ -1,4 +1,4 @@
-// ═══════════════════════════════════════════════════════════════════
+﻿// ═══════════════════════════════════════════════════════════════════
 // Site Configuration — Location Voiture Tunis
 // Domain: locationvoituretunis.com | FR | Tunis city
 // ═══════════════════════════════════════════════════════════════════
@@ -182,13 +182,15 @@ export const siteConfig = {
     },
 
     theme: {
-        primary: "#00256f",
-        primaryContainer: "#1a3c8f",
+        heroVariant: "split",   // "overlay" | "split"
+        cardVariant: "outlined",   // "default" | "outlined"
+        primary: "#047857",
+        primaryContainer: "#065f46",
         primaryFixed: "#dbe1ff",
         onPrimary: "#ffffff",
-        onPrimaryContainer: "#92abff",
-        accent: "#00256f",
-        accentDark: "#1a3c8f",
+        onPrimaryContainer: "#6ee7b7",
+        accent: "#047857",
+        accentDark: "#065f46",
         background: "#f7f9fc",
         surface: "#f7f9fc",
         surfaceContainerLow: "#f2f4f7",
@@ -197,7 +199,7 @@ export const siteConfig = {
         onSurface: "#191c1e",
         onSurfaceVariant: "#444651",
         outlineVariant: "#c4c6d3",
-        footerBg: "#172554",
+        footerBg: "#022c22",
     },
 } as const;
 
